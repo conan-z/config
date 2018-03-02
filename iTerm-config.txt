@@ -1,0 +1,13 @@
+Move cursor to the beginning/end of the line
+	Preferences -> Profiles -> Keys
+		Map <Command + left> as "Send escape sequence", value <ESC + OH>
+		Map <Command + right> as "Send escape sequence", value <ESC + OF>
+
+------------------------------------------------------------------------------
+
+Move cursor forward/backward by word
+	Preferences -> Profiles -> Keys
+		Map <Option + left> as "Send escape sequence", value <ESC + b>
+		Map <Option + right> as "Send escape sequence", value <ESC + f>
+Known issue:
+	In Vim eitor, move cursor by words are mapped to <shift + left/right>
