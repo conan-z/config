@@ -36,9 +36,9 @@ if [ "$arg" == "r" ]; then
 	docker start rabbit
 	echo "Started RabbitMQ"
 
-	echo "=== Keycloak ==="
-	docker start keycloak
-	echo "Started Keycloak"
+	# echo "=== Keycloak ==="
+	# docker start keycloak
+	# echo "Started Keycloak"
 
 	echo "=== All services started ==="
 fi
@@ -56,9 +56,13 @@ if [ "$arg" == "s" ]; then
 	docker stop local-postgres
 	echo "Stopped PostgreSQL"
 
-	echo "=== Keycloak ==="
-	docker stop keycloak
-	echo "Started Keycloak"
+	echo "=== RabbitMQ ==="
+	docker stop rabbit
+	echo "Stopped RabbitMQ"
+
+	# echo "=== Keycloak ==="
+	# docker stop keycloak
+	# echo "Started Keycloak"
 
 	echo "=== All services stopped ==="
 fi
