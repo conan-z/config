@@ -1,23 +1,27 @@
 <scheme name="Darcula_VU" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0833334" />
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-01-25T11:21:09</property>
+    <property name="created">2018-03-27T07:43:18</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2017.3.3.0.0</property>
-    <property name="modified">2018-01-25T11:21:35</property>
+    <property name="ideVersion">2017.3.5.0.0</property>
+    <property name="modified">2018-03-27T07:43:22</property>
     <property name="originalScheme">Darcula_VU</property>
   </metaInfo>
-  <option name="EDITOR_FONT_SIZE" value="15" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <option name="EDITOR_LIGATURES" value="true" />
-  <option name="CONSOLE_FONT_NAME" value="Ubuntu Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="14" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_SIZE" value="13" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
   <colors>
+    <option name="ADDED_LINES_COLOR" value="749b74" />
     <option name="CARET_ROW_COLOR" value="252525" />
+    <option name="DELETED_LINES_COLOR" value="87929b" />
     <option name="INDENT_GUIDE" value="3c3f41" />
     <option name="METHOD_SEPARATORS_COLOR" value="393939" />
+    <option name="MODIFIED_LINES_COLOR" value="6b869b" />
     <option name="TEARLINE_COLOR" value="4f4e4e" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="9b967c" />
   </colors>
   <attributes>
     <option name="ABSTRACT_METHOD_ATTRIBUTES">
