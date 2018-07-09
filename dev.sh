@@ -12,11 +12,10 @@ fi
 
 # docker run -d -p 27017:27017 --name mongo mongo:3.4
 
-# docker run -d -p 5432:5432 --name local-postgres -e POSTGRES_PASSWORD=postgres postgres
+# docker run -d -p 5432:5432 --name local-postgres -e POSTGRES_PASSWORD=postgres postgres:10.4
 
 # docker run -d -p 15672:15672 -p 5672:5672 --name rabbit rabbitmq:3-management
 
-# docker pull jboss/keycloak
 # docker run -d -p 9999:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin --name keycloak jboss/keycloak
 
 if [ "$arg" == "r" ]; then
