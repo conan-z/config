@@ -1,4 +1,7 @@
 <code_scheme name="WebStorm_CodeStyle" version="173">
+  <HTMLCodeStyleSettings>
+    <option name="HTML_ENFORCE_QUOTES" value="true" />
+  </HTMLCodeStyleSettings>
   <TypeScriptCodeStyleSettings>
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
