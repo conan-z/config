@@ -2,6 +2,9 @@
   <HTMLCodeStyleSettings>
     <option name="HTML_ENFORCE_QUOTES" value="true" />
   </HTMLCodeStyleSettings>
+  <JSCodeStyleSettings>
+    <option name="SPACES_WITHIN_INTERPOLATION_EXPRESSIONS" value="true" />
+  </JSCodeStyleSettings>
   <TypeScriptCodeStyleSettings>
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
