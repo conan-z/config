@@ -1,0 +1,11 @@
+1. Install fonts from powerline/fonts project: https://github.com/powerline/fonts
+2. If needed, run "fc-cache -v -f" to update font cache
+3. configure the terminal to use the powerline fonts for inline icons
+    1. Terminator (Linux)
+        1. Preferences > Profiles > General > Font
+    3. JetBrains IDEs
+        1. Install powerline fonts into /usr/share/fonts/truetype/ (requires sudo)
+        2. Settings > Editor > Font > "Font/"Fallback Font"
+    4. VSCode
+        1. Insert into user settigns JSON: "terminal.integrated.fontFamily": "Roboto Mono for Powerline"
+        source: https://code.visualstudio.com/docs/editor/integrated-terminal#_can-i-use-powerline-fonts-in-the-integrated-terminal
