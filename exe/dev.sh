@@ -19,13 +19,13 @@ fi
 # docker run -d -p 9999:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin --name keycloak jboss/keycloak
 
 if [ "$arg" == "r" ]; then
-#	echo "=== SonarQube ==="
-#	docker start sonarqube
-#	echo "Started SonarQube "
+	# echo "=== SonarQube ==="
+	# docker start sonarqube
+	# echo "Started SonarQube "
 
-	echo "=== MongoDB ==="
-	docker start mongo
-	echo "Started MongoDB"
+	# echo "=== MongoDB ==="
+	# docker start mongo
+	# echo "Started MongoDB"
 
 	echo "=== PostgreSQL ==="
 	docker start local-postgres
@@ -43,13 +43,13 @@ if [ "$arg" == "r" ]; then
 fi
 
 if [ "$arg" == "s" ]; then
-#	echo "=== SonarQube ==="
-#	docker stop sonarqube
-#	echo "Stopped SonarQube "
+	# echo "=== SonarQube ==="
+	# docker stop sonarqube
+	# echo "Stopped SonarQube "
 
-	echo "=== MongoDB ==="
-	docker stop mongo
-	echo "Stopped MongoDB"
+	# echo "=== MongoDB ==="
+	# docker stop mongo
+	# echo "Stopped MongoDB"
 
 	echo "=== PostgreSQL ==="
 	docker stop local-postgres
